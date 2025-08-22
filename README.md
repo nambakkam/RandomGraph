@@ -1,20 +1,13 @@
 # RandomCustomGraph
 
-RandomCustomGraph is a Qt application developed in C++ and QML that reads values over the TCP-IP protocol and plots them on a custom graph using QQuickPaintedItem along with QPainter. The project is designed to run on both Windows and Ubuntu platforms.
+RandomCustomGraph is a Qt-based application which plots some random data using QQuickPaintedItem and QPainter. The project is designed to run on both Windows and Ubuntu platforms.
 
 ## Table of Contents
 
-- [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-
-## Features
-
-- Reads 8 values over the TCP-IP protocol.
-- Plots the values on a custom graph using QQuickPaintedItem and QPainter.
-- Supports both Windows and Ubuntu platforms.
 
 ## Prerequisites
 
@@ -48,7 +41,7 @@ RandomCustomGraph is a Qt application developed in C++ and QML that reads values
     RandomCustomGraph.exe  # On Windows
     ```
 
-2. The application will start, read random values over UDP, and plot them on the custom graph.
+2. The application will start and plot random values on the custom graph using QQuickPaintedItem.
 
 ## Contributing
 
